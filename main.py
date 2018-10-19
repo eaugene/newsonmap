@@ -6,7 +6,7 @@ from flask import Flask, render_template
 from flask_googlemaps import GoogleMaps
 from flask_googlemaps import Map
 
-api_key = "40937e87f021447bbb70a1bd9a03e7ef"
+api_key = "YOUR_API_KEY"
 final = []
 geolocator = Nominatim(user_agent="newsonmap")
 app = Flask(__name__, template_folder=".")
