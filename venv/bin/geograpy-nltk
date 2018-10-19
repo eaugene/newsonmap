@@ -1,0 +1,8 @@
+#!/home/eaugene/PycharmProjects/newsonmap/venv/bin/python2.7
+
+import nltk
+
+nltk.downloader('maxent_ne_chunker')
+nltk.downloader('words')
+nltk.downloader('treebank')
+nltk.downloader('maxent_treebank_pos_tagger')
